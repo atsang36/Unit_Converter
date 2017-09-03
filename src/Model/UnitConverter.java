@@ -19,6 +19,8 @@ public class UnitConverter {
         MEASUREMENT.put("len", "length");
         MEASUREMENT.put("m", "mass");
         MEASUREMENT.put("spd", "speed");
+        MEASUREMENT.put("d", "digital");
+        MEASUREMENT.put("t", "time");
     }
 
     public static void main(String[] args){
@@ -61,6 +63,8 @@ public class UnitConverter {
         System.out.println("    - Length (len)");
         System.out.println("    - Mass (m)");
         System.out.println("    - Speed (spd)");
+        System.out.println("    - Digital Storage (d)");
+        System.out.println("    - Time (t)");
         System.out.println();
 
         converter = input.nextLine();
@@ -77,7 +81,7 @@ public class UnitConverter {
         Boolean temp = true;
 
         while(temp){
-            String r = "";
+            String r;
 
             System.out.println("Choose From: ");
             converter.unitsInfo();

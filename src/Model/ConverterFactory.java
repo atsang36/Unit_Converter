@@ -13,6 +13,10 @@ public class ConverterFactory {
             return new Mass();
         } else if (measurementType.equals("speed")) {
             return new Speed();
+        }else if (measurementType.equals("digital")){
+            return new DigitalStorage();
+        }else if (measurementType.equals("time")){
+            return new Time();
         }
 
         return null;
