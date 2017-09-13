@@ -6,13 +6,13 @@ Currently works for:
 - length
 - speed
 - mass
+- digital storage
+- Time 
 
 In works:
 - Currency
-- digital storage
 - Volume
 - Pressure
-- Time 
 - Area
 
 To be created into an android app. 
